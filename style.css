@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+#welcome {
+  height: 100vh;
+  background-image: url('flowshare-1.jpg');
+  background-size: cover;
+  display: block;
+}
+
+#left {
+  width: 50vw;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  height: 70vh;
+}
+
+#right {
+  width: 50vw;
+  padding-bottom: 8vh;
+  margin-bottom: 0;
+  padding-left: 50vw;
+  text-align: center;
+  padding-top: 10vh;
+  display: block;
+}
+
+#right img {
+  height: 80vh;
+  width: auto;
+  text-align: center;
+}
+
+#hi {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 30px;
+  text-shadow: 6px 6px 16px rgba(36, 26, 45, 0.8);
+}
+
+.flowshare {
+  color: #d33650;
+}
+
+#tagline-main {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+#tagline-secondary {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  font-size: 22px;
+}
+
+#white-logo {
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+  height: 100px;
+  width: auto;
+}
+
+#form {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+.input {
+  outline-offset: : 2px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  line-height: 20px;
+  width: 25vw;
+  padding-right: 10px;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+.button {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  float: none;
+}
+
+@media screen and (min-width: 825px) {
+  #welcome {
+    padding: 20px;
+  }
+}
+
+#first-content {
+  background-color: #fff;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+#tagline-first {
+  text-align: center;
+  color: #cc0033;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  padding-top: 30px;
+  margin: 0;
+}
+
+#tagline-second {
+  text-align: center;
+  color: #cc0033;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.container {
+  padding-top: 5vh;
+  font-family: Lato, sans-serif;
+  color: #cc0033;
+  display: inline-flex;
+  text-align: center;
+}
+
+#img-n-txt {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+#img-n-txt > img{
+  height: 40vh;
+}
+
+#second-content {
+  height: 100vh;
+  background-image: url('image-last.png');
+  background-size: cover;
+}
+
+#second-content p{
+  text-align: center;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-top: 30px;
+  margin: 0;
+}
+
+#third-content {
+  height: 100vh;
+  background-image: url('image-third.jpg');
+  background-size: cover;
+}
+
+#third-content p {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0;
+  padding-top: 30px;
+}
+
+#last-content {
+  height: 100vh;
+  text-align: center;
+  background-color: #251b2d;
+}
+
+#tagline-last {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 5vh;
+  padding-top: 30px;
+  margin-top: 0;
+}
+
+#appstore {
+  max-width: 180px;
+  height: auto;
+  border: 2px solid #9A1F47;
+  border-radius: 5px;
+}
+
+#last-logo {
+  width: 400px;
+  height: auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+footer h4 {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  color: #3d3b4c;
+  background-color: #17141f;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  padding-top: 10px;
+}
