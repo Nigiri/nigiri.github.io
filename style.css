@@ -115,12 +115,7 @@ body {
   text-align: center;
   display: inline-block;
   float: none;
-}
-
-@media screen and (min-width: 825px) {
-  #welcome {
-    padding: 20px;
-  }
+  cursor: pointer;
 }
 
 #first-content {
@@ -189,7 +184,7 @@ body {
 
 #third-content {
   height: 100vh;
-  background-image: url('image-third.jpg');
+  background-image: url('image-third.png');
   background-size: cover;
 }
 
@@ -201,6 +196,16 @@ body {
   font-size: 1.5em;
   margin: 0;
   padding-top: 30px;
+}
+
+#metrics {
+  width: 140px;
+  height: auto;
+}
+
+#white-symbol {
+  width: 112px;
+  height: auto;
 }
 
 #last-content {
